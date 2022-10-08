@@ -1,38 +1,131 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab');
+@import url('https://fonts.googleapis.com/css2?family=Alkalami');
+
+body {
+  background-color: rgb(31, 31, 31);
+  color: whitesmoke;
+  padding-left: 400px;
+  padding-right: 400px;
+  font-family: 'Roboto Slab', serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-top {
+  padding-top: 55px;
+  padding-bottom: 20px;
+  font-size: 14px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.designation {
+  font-size: 40px;
+  font-weight: 1000;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.company {
+  font-size: 20px;
+  font-weight: 650;
+}
+
+.experience {
+  font-size: 20px;
+  font-weight: 650;
+  letter-spacing: 00.07pc;
+}
+
+.yoe-info {
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+.yoe {
+  background-color: rgb(101, 98, 98);
   color: white;
+  padding: 2px 4px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: 400;
 }
 
-.App-link {
-  color: #61dafb;
+.company-logo {
+  background-color: whitesmoke;
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  padding: 7px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.exp-card {
+  padding-bottom: 10px;
+}
+
+.footer-design {
+  text-align: center;
+  align-content: center;
+}
+
+.icon {
+  padding-right: 10px;
+}
+
+.blog-heading {
+  color: whitesmoke;
+}
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+.project-card {
+  background-color: transparent;
+  border-color: gray;
+}
+
+.project-img {
+  height: 170px;
+}
+
+.project-button {
+  background-color: transparent;
+  border-color: transparent;
+  color: rgb(30, 30, 195);
+  text-decoration: none;
+}
+
+.project-domain {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.skill-emoji {
+  height: 20px;
+  width: 20px;
+}
+
+.profile-img {
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+  border-color: whitesmoke;
+  padding: 20px;
+}
+
+@media only screen and (max-width: 1422px) {
+  body {
+    padding-left: 200px;
+    padding-right: 200px;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media only screen and (max-width: 412px) {
+  body {
+    padding-left: 28px;
+    padding-right: 28px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    padding-left: 50px;
+    padding-right: 50px;
   }
 }
