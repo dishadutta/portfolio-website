@@ -28,7 +28,7 @@ class Navbar extends Component {
                   <Link className="nav-link active" style={{fontSize:'17px', fontWeight:'bold', fontFamily:'Alkalami'}}  to="/about">About</Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link active" style={{fontSize:'17px', fontWeight:'bold', fontFamily:'Alkalami'}} href='https://drive.google.com/file/d/1DnLM0P7pqjvZ0ZqllQ8f8gpdspcCpkhn/view?usp=sharing'>Resume</a>
+                  <a className="nav-link active" style={{fontSize:'17px', fontWeight:'bold', fontFamily:'Alkalami'}} href='https://drive.google.com/file/d/1UqQtjhjcQxfFbaflKrEUFrpgtMZ22a9d/view?usp=sharing'>Resume</a>
                 </li>
               </ul>
               </form>

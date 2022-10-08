@@ -109,6 +109,22 @@ a:active { text-decoration: none; }
   padding: 20px;
 }
 
+.resume-link {
+  color: gray;
+  font-size:'14px'; 
+  font-weight: 'bold'; 
+  text-align:'center';
+  text-decoration: none;
+}
+
+.resume-link:hover {
+  color: gray;
+  font-size:'14px'; 
+  font-weight: 'bold'; 
+  text-align:'center';
+  text-decoration: none;
+}
+
 @media only screen and (max-width: 1422px) {
   body {
     padding-left: 200px;

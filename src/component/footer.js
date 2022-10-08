@@ -14,7 +14,7 @@ class Footer extends Component {
         <a href="https://www.youtube.com/channel/UCL-KeiScXWU5QYsNNLw-1Tg"><AiFillYoutube className="icon" size="28px" color="whitesmoke"/></a>
         <div style={{padding: '4px'}} />
         <p style={{color:'whitesmoke', fontSize:'14px', fontWeight: 'bold', textAlign:'center'}}>ⓒ 2022 DISHA DUTTA</p>
-        <p style={{color:'gray', fontSize:'14px', fontWeight: 'bold', textAlign:'center'}}>View Resume</p>
+        <a className='resume-link' href='https://drive.google.com/file/d/1UqQtjhjcQxfFbaflKrEUFrpgtMZ22a9d/view?usp=sharing'>View Resume</a>
         <div style={{padding: '10px'}} />
       </div>
     )
