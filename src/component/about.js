@@ -23,11 +23,10 @@ class About extends Component {
         <div style={{padding: '20px'}} />
         <h1><strong>About</strong></h1>
         <div style={{padding: '17px'}}/>
-        <span>I've recently graduated with a Bachelor Degree in Computer Science and Engineering from SRM Institute of Science and Technologies. 
-        I am passionate about software, programming languages, technologies and creativities. 
-        I am a very creative, passionate, organized, proactive and versatile person, 
-        and I am confident in my ability to tackle with any new missions. 
-        I possess a range of technical skills that I gained through my personal and learning professional experiences.</span>
+        <span>As an ambitious and results-driven full-stack developer, 
+  I aspire to contribute my expertise to a dynamic team where innovation is valued. 
+  My goal is to secure a challenging full-stack developer role that allows me to leverage my proficiency in frontend and backend technologies to architect robust and scalable solutions. 
+  I am enthusiastic about collaborating on forward-thinking projects, bringing a keen eye for detail and a passion for creating seamless user experiences.</span>
         <div style={{padding: '17px'}} />
         <h2><strong>Skills</strong></h2>
         <div style={{padding: '10px'}} />
